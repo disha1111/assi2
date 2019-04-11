@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Social Buttons for Bootstrap" />
+    <meta property="og:description" content="Social Sign-In Buttons made in pure CSS based on Bootstrap and Font Awesome!" />
+    <meta property="og:type" content="website" />
+    
+    <title>jQuery Mini Colors & Social Buttons for Bootstrap</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet" >
+
+    <link href="bootstrap-social.css" rel="stylesheet" >
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-42119746-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+
+  <!-- Force latest IE rendering engine or ChromeFrame if installed -->
+  <!--[if IE]>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <![endif]-->
+  <meta charset="utf-8">
+  <title>jQuery File Upload Demo</title>
+  <meta name="description" content="File Upload widget with multiple file selection, drag&amp;drop support, progress bars, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads and client-side image resizing. Works with any server-side platform (PHP, Python, Ruby on Rails, Java, Node.js, Go etc.) that supports standard HTML form file uploads.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap styles -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Generic page styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- blueimp Gallery styles -->
+  <link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+  <!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+  <link rel="stylesheet" href="css/jquery.fileupload.css">
+  <link rel="stylesheet" href="css/jquery.fileupload-ui.css">
+  <!-- CSS adjustments for browsers with JavaScript disabled -->
+  <noscript><link rel="stylesheet" href="css/jquery.fileupload-noscript.css"></noscript>
+  <noscript><link rel="stylesheet" href="css/jquery.fileupload-ui-noscript.css"></noscript>
+  
+  
+  <meta charset="utf-8">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  <!-- Bootstrap 3 -->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <!-- MiniColors -->
+  <script src="jquery.minicolors.js"></script>
+  <link rel="stylesheet" href="jquery.minicolors.css">
+
+  <style>
+    dl {
+      margin: 20px 0;
+    }
+    dt {
+      font-size: 120%;
+    }
+    dd {
+      padding: 10px 20px 20px 20px;
+    }
+    dd:last-child {
+      border-bottom: none;
+    }
+    code {
+      color: black;
+      border: none;
+      background: rgba(128, 128, 128, .1);
+    }
+    [dir=rtl] code {
+      direction: ltr;
+    }
+    pre {
+      background: #f8f8f8;
+      border: none;
+      color: #333;
+      padding: 20px;
+    }
+    [dir=rtl] pre {
+      direction: ltr;
+    }
+    h2 {
+      margin-top: 50px;
+    }
+    h3 {
+      color: #aaa;
+    }
+    .jumbotron {
+      padding: 40px;
+    }
+    .jumbotron h1 {
+      margin-top: 0;
+    }
+    .jumbotron p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+
+  <script>
+    $(document).ready( function() {
+
+      $('.demo').each( function() {
+        //
+        // Dear reader, it's actually very easy to initialize MiniColors. For example:
+        //
+        //  $(selector).minicolors();
+        //
+        // The way I've done it below is just for the demo, so don't get confused
+        // by it. Also, data- attributes aren't supported at this time...they're
+        // only used for this demo.
+        //
+        $(this).minicolors({
+          control: $(this).attr('data-control') || 'hue',
+          defaultValue: $(this).attr('data-defaultValue') || '',
+          format: $(this).attr('data-format') || 'hex',
+          keywords: $(this).attr('data-keywords') || '',
+          inline: $(this).attr('data-inline') === 'true',
+          letterCase: $(this).attr('data-letterCase') || 'lowercase',
+          opacity: $(this).attr('data-opacity'),
+          position: $(this).attr('data-position') || 'bottom',
+          swatches: $(this).attr('data-swatches') ? $(this).attr('data-swatches').split('|') : [],
+          change: function(value, opacity) {
+            if( !value ) return;
+            if( opacity ) value += ', ' + opacity;
+            if( typeof console === 'object' ) {
+              console.log(value);
+            }
+          },
+          theme: 'bootstrap'
+        });
+
+      });
+
+    });
+  </script>
+
+  </head>
+
+  <body>
+
+     
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Social Buttons for Bootstrap</h1>
+      <p>
+        Social Sign-In Buttons made in pure CSS based on
+        
+  </div>
+  </div>
+  
+
+    
+
+      
+      
+  <a href="https://github.com/lipis/bootstrap-social" title="Fork me on GitHub" class="github-corner"><svg width="80" height="80" viewbox="0 0 250 250"><title>Fork me on GitHub</title><path d="M0 0h250v250"></path><path d="M127.4 110c-14.6-9.2-9.4-19.5-9.4-19.5 3-7 1.5-11 1.5-11-1-6.2 3-2 3-2 4 4.7 2 11 2 11-2.2 10.4 5 14.8 9 16.2" fill="currentColor" style="transform-origin:130px 110px" class="octo-arm"></path><path d="M113.2 114.3s3.6 1.6 4.7.6l15-13.7c3-2.4 6-3 8.2-2.7-8-11.2-14-25 3-41 4.7-4.4 10.6-6.4 16.2-6.4.6-1.6 3.6-7.3 11.8-10.7 0 0 4.5 2.7 6.8 16.5 4.3 2.7 8.3 6 12 9.8 3.3 3.5 6.7 8 8.6 12.3 14 3 16.8 8 16.8 8-3.4 8-9.4 11-11.4 11 0 5.8-2.3 11-7.5 15.5-16.4 16-30 9-40 .2 0 3-1 7-5.2 11l-13.3 11c-1 1 .5 5.3.8 5z" fill="currentColor" class="octo-body"></path></svg><style> .github-corner svg{position:absolute;right:0;top:0;mix-blend-mode:darken;color:#ffffff;fill:#000000;}.github-corner:hover .octo-arm{animation:octocat-wave .56s;}@keyframes octocat-wave{0%, 100%{transform:rotate(0);}20%, 60%{transform:rotate(-20deg);}40%, 80%{transform:rotate(10deg);}}</style></a>
+  <!-- Some JavaScript that is used only in this demo, not needed for the buttons -->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/docs.js"></script>
+  <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+   
+
+   <div class="row" style="margin: 40px 40px;">
+    <div class="col-12">
+
+      <!-- Intro -->
+      <div id="intro" class="jumbotron">
+        <h1>jQuery MiniColors</h1>
+        
+      </div>
+
+      
+      <!-- Control types -->
+      <h3>Control Types</h3>
+      <div class="well">
+        <div class="row">
+          <div class="col-lg-4 col-sm-4 col-12">
+
+            <div class="form-group">
+              <label for="hue-demo">Hue (default)</label>
+              <input type="text" id="hue-demo" class="form-control demo" data-control="hue" value="#ff6161">
+            </div>
+            <div class="form-group">
+              <label for="saturation-demo">Saturation</label>
+              <input type="text" id="saturation-demo" class="form-control demo" data-control="saturation" value="#0088cc">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-4 col-12">
+            <div class="form-group">
+              <label for="brightness-demo">Brightness</label>
+              <input type="text" id="brightness-demo" class="form-control demo" data-control="brightness" value="#00ffff">
+            </div>
+            <div class="form-group">
+              <label for="wheel-demo">Wheel</label>
+              <input type="text" id="wheel-demo" class="form-control demo" data-control="wheel" value="#ff99ee">
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container justify-content-between">
+        <a class="navbar-brand" href="#">Bootstrap Select Dropdown</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <span class="navbar-text ml-auto">
+
+          </span>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="version" class="nav-link" href="/"></a>
+            </li>
+            <li class="nav-item">
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/thompsonsj/bootstrap-select-dropdown">
+                <svg class="ion ion-social-github">
+                  <use xlink:href="#ion-social-github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+
+
+  </body>
+</html>
